@@ -66,9 +66,9 @@
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"VoiceAtelier","description":"Catalog de 427 de voci neurale gratuite în 141 de limbi pentru creatori de audiobook.","url":"https://alexio.tf/voiceatelier/","applicationCategory":"MultimediaApplication","operatingSystem":"Any","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"},"author":{"@type":"Person","name":"Alexio","url":"https://alexio.tf"},"inLanguage":["ro","en","fr","de","es","pt","it","nl","pl","ru","ar","zh","ja","ko","tr"]}</script>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root,:root[data-theme=dark]{--bg:#0b0d14;--bg2:#12141f;--bg3:#1a1d2e;--bg4:#22253a;--amber:#d4924d;--amber2:#e8b06a;--amber3:#f5cc8a;--cream:#f0e6d0;--cream2:#c8b99a;--cream3:#8a7a65;--border:rgba(212,146,77,.15);--border2:rgba(212,146,77,.3);--shadow:rgba(0,0,0,.35);--serif:'Playfair Display',Georgia,serif;--body:'Crimson Text',Georgia,serif;--mono:'DM Mono',monospace;--r:12px;--r2:8px}
-:root[data-theme=light]{--bg:#faf6ec;--bg2:#f2ece0;--bg3:#e8e0cf;--bg4:#ddd3bd;--amber:#a65a1c;--amber2:#8b4a15;--amber3:#6d3a0f;--cream:#2c2416;--cream2:#4a3f2a;--cream3:#7a6b4e;--border:rgba(166,90,28,.2);--border2:rgba(166,90,28,.4);--shadow:rgba(140,90,30,.12);--serif:'Playfair Display',Georgia,serif;--body:'Crimson Text',Georgia,serif;--mono:'DM Mono',monospace;--r:12px;--r2:8px}
-@media(prefers-color-scheme:light){:root:not([data-theme]){--bg:#faf6ec;--bg2:#f2ece0;--bg3:#e8e0cf;--bg4:#ddd3bd;--amber:#a65a1c;--amber2:#8b4a15;--amber3:#6d3a0f;--cream:#2c2416;--cream2:#4a3f2a;--cream3:#7a6b4e;--border:rgba(166,90,28,.2);--border2:rgba(166,90,28,.4);--shadow:rgba(140,90,30,.12)}}
+:root,:root[data-theme=dark]{--bg:#0b0d14;--bg2:#12141f;--bg3:#1a1d2e;--bg4:#22253a;--amber:#d4924d;--amber2:#e8b06a;--amber3:#f5cc8a;--cream:#f0e6d0;--cream2:#c8b99a;--cream3:#a39380;--border:rgba(212,146,77,.15);--border2:rgba(212,146,77,.3);--shadow:rgba(0,0,0,.35);--serif:'Playfair Display',Georgia,serif;--body:'Crimson Text',Georgia,serif;--mono:'DM Mono',monospace;--r:12px;--r2:8px}
+:root[data-theme=light]{--bg:#faf6ec;--bg2:#f2ece0;--bg3:#e8e0cf;--bg4:#ddd3bd;--amber:#8f4d17;--amber2:#8b4a15;--amber3:#6d3a0f;--cream:#2c2416;--cream2:#4a3f2a;--cream3:#655840;--border:rgba(166,90,28,.2);--border2:rgba(166,90,28,.4);--shadow:rgba(140,90,30,.12);--serif:'Playfair Display',Georgia,serif;--body:'Crimson Text',Georgia,serif;--mono:'DM Mono',monospace;--r:12px;--r2:8px}
+@media(prefers-color-scheme:light){:root:not([data-theme]){--bg:#faf6ec;--bg2:#f2ece0;--bg3:#e8e0cf;--bg4:#ddd3bd;--amber:#8f4d17;--amber2:#8b4a15;--amber3:#6d3a0f;--cream:#2c2416;--cream2:#4a3f2a;--cream3:#655840;--border:rgba(166,90,28,.2);--border2:rgba(166,90,28,.4);--shadow:rgba(140,90,30,.12)}}
 html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--cream);font-family:var(--body);font-size:18px;line-height:1.65;min-height:100vh;overflow-x:hidden;transition:background .35s,color .35s}
 :root[data-theme=dark] body::before,:root:not([data-theme]) body::before{content:'';position:fixed;inset:0;background:radial-gradient(ellipse 80% 50% at 20% 10%,rgba(212,146,77,.06),transparent 60%),radial-gradient(ellipse 60% 40% at 80% 90%,rgba(58,123,213,.05),transparent 60%);pointer-events:none;z-index:0}
@@ -275,6 +275,21 @@ footer a{color:var(--amber2);text-decoration:none}
 .unavail-row button.copied{background:rgba(74,158,110,.2);border-color:rgba(74,158,110,.4);color:#7dc99a}
 .lang-notice{display:none;background:rgba(58,123,213,.08);border:1px solid rgba(58,123,213,.25);border-inline-start:3px solid #7ab4f5;border-radius:var(--r2);padding:.75rem 1rem;margin-bottom:1.25rem;font-family:var(--mono);font-size:12px;color:#7ab4f5;line-height:1.5}html:not([lang=ro]):not([lang=en]) .lang-notice{display:block}
 </style>
+<style id="tf-a11y-contrast">
+/* Audit 2026-10-10: contrast WCAG AA în tema luminoasă + linkuri în text */
+:root[data-theme=light] .v-pill.f{color:#a3274f}
+:root[data-theme=light] .v-pill.m,:root[data-theme=light] .copy-cmd{color:#1f5fb3}
+:root[data-theme=light] .stop-btn,:root[data-theme=light] .sc-name small{color:#9b2c22!important}
+:root[data-theme=light] .tier-free{color:#1f6b3f}
+:root[data-theme=light] .tier-mix{color:#1f5fb3}
+@media(prefers-color-scheme:light){
+:root:not([data-theme]) .v-pill.f{color:#a3274f}
+:root:not([data-theme]) .v-pill.m,:root:not([data-theme]) .copy-cmd{color:#1f5fb3}
+:root:not([data-theme]) .stop-btn,:root:not([data-theme]) .sc-name small{color:#9b2c22!important}
+:root:not([data-theme]) .tier-free{color:#1f6b3f}
+:root:not([data-theme]) .tier-mix{color:#1f5fb3}}
+footer p a{text-decoration:underline}
+</style>
 </head>
 <body>
 <a href="#main-content" class="skip-link" data-i18n="skipLink">Skip to content</a>
@@ -348,7 +363,7 @@ footer a{color:var(--amber2);text-decoration:none}
     <div class="studio-card"><div class="sc-header"><div class="sc-name">Kokoro TTS</div><span class="tier-free" data-i18n="tierOss"></span></div><p class="sc-desc" data-i18n="sdKokoro"></p><div class="sc-specs"><div class="spec"><span class="spec-k" data-i18n="specQ"></span><span class="spec-v">Unlimited (local)</span></div><div class="spec"><span class="spec-k" data-i18n="specL"></span><span class="spec-v">EN, FR, KO, ZH, JA, PT</span></div><div class="spec"><span class="spec-k" data-i18n="specE"></span><span class="spec-v">WAV (local)</span></div></div><a class="sc-link" href="https://huggingface.co/hexgrad/Kokoro-82M" target="_blank" rel="noopener">HuggingFace — Kokoro</a></div>
     <div class="studio-card"><div class="sc-header"><div class="sc-name">Bark by Suno</div><span class="tier-free" data-i18n="tierOss"></span></div><p class="sc-desc" data-i18n="sdBark"></p><div class="sc-specs"><div class="spec"><span class="spec-k" data-i18n="specQ"></span><span class="spec-v">Unlimited (local)</span></div><div class="spec"><span class="spec-k" data-i18n="specL"></span><span class="spec-v">13</span></div><div class="spec"><span class="spec-k" data-i18n="specB"></span><span class="spec-v">Dramatic narration, SFX</span></div></div><a class="sc-link" href="https://github.com/suno-ai/bark" target="_blank" rel="noopener">github.com/suno-ai/bark</a></div>
     <div class="studio-card"><div class="sc-header"><div class="sc-name">Google Cloud TTS</div><span class="tier-mix" data-i18n="tierMix"></span></div><p class="sc-desc" data-i18n="sdGoogle"></p><div class="sc-specs"><div class="spec"><span class="spec-k" data-i18n="specQ"></span><span class="spec-v">1M chars/mo (Standard)</span></div><div class="spec"><span class="spec-k" data-i18n="specL"></span><span class="spec-v">40+</span></div><div class="spec"><span class="spec-k" data-i18n="specE"></span><span class="spec-v">MP3, OGG, WAV</span></div></div><a class="sc-link" href="https://cloud.google.com/text-to-speech" target="_blank" rel="noopener">cloud.google.com/tts</a></div>
-    <div class="studio-card" style="opacity:.6;border-style:dashed"><div class="sc-header"><div class="sc-name">Coqui TTS <small style="font-family:var(--mono);font-size:10px;color:#e8857d">⚠ archived</small></div><span class="tier-free" data-i18n="tierOss"></span></div><p class="sc-desc" data-i18n="sdCoqui"></p><div class="sc-specs"><div class="spec"><span class="spec-k" data-i18n="specQ"></span><span class="spec-v">Unlimited (local)</span></div><div class="spec"><span class="spec-k" data-i18n="specL"></span><span class="spec-v">17+</span></div><div class="spec"><span class="spec-k" data-i18n="specB"></span><span class="spec-v">Voice cloning</span></div></div><a class="sc-link" href="https://github.com/coqui-ai/TTS" target="_blank" rel="noopener">github.com/coqui-ai/TTS</a></div>
+    <div class="studio-card" style="border-style:dashed"><div class="sc-header"><div class="sc-name">Coqui TTS <small style="font-family:var(--mono);font-size:10px;color:#e8857d">⚠ archived</small></div><span class="tier-free" data-i18n="tierOss"></span></div><p class="sc-desc" data-i18n="sdCoqui"></p><div class="sc-specs"><div class="spec"><span class="spec-k" data-i18n="specQ"></span><span class="spec-v">Unlimited (local)</span></div><div class="spec"><span class="spec-k" data-i18n="specL"></span><span class="spec-v">17+</span></div><div class="spec"><span class="spec-k" data-i18n="specB"></span><span class="spec-v">Voice cloning</span></div></div><a class="sc-link" href="https://github.com/coqui-ai/TTS" target="_blank" rel="noopener">github.com/coqui-ai/TTS</a></div>
     <div class="studio-card"><div class="sc-header"><div class="sc-name">Amazon Polly</div><span class="tier-mix" data-i18n="tierMix"></span></div><p class="sc-desc" data-i18n="sdPolly"></p><div class="sc-specs"><div class="spec"><span class="spec-k" data-i18n="specQ"></span><span class="spec-v">1M chars/mo (12 months)</span></div><div class="spec"><span class="spec-k" data-i18n="specL"></span><span class="spec-v">30+ incl. Romanian</span></div><div class="spec"><span class="spec-k" data-i18n="specE"></span><span class="spec-v">MP3, OGG, PCM</span></div></div><a class="sc-link" href="https://aws.amazon.com/polly/" target="_blank" rel="noopener">aws.amazon.com/polly</a></div>
   </div>
 </div>
@@ -1075,7 +1090,7 @@ if(document.readyState==='loading'){
 @media (max-width:560px){#tf-donate .tf-lbl{display:none}}
 @media print{#tf-donate{display:none}}
 </style>
-<input type="checkbox" id="tf-donate-cb" class="tf-cb" aria-hidden="true">
+<input type="checkbox" id="tf-donate-cb" class="tf-cb" aria-hidden="true" tabindex="-1">
 <div class="tf-panel">
 <span class="tf-lbl">Sprijină:</span>
 <a class="tf-b tf-pat" href="https://www.patreon.com/c/alexio_tf" target="_blank" rel="noopener" aria-label="Sprijină pe Patreon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="15.4" cy="9.4" r="6.6" fill="currentColor"/><rect x="2.4" y="2.4" width="3.7" height="19.2" fill="currentColor"/></svg>Patreon</a>

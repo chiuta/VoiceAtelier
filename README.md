@@ -38,6 +38,7 @@ VoiceAtelier este o aplicație dintr-un singur fișier `index.html` care prezint
 - **Stocare locală:** `localStorage`, chei `va_lang` (limba) și `va_theme` (tema). Opțional, cheia `va_endpoint` dacă setezi manual un alt releu TTS.
 - **Rețea:** vocile din tab-urile Starter și Storyteller rulează local prin Web Speech API (aplicația notează că, dacă browserul trimite intern textul unui server, responsabilitatea aparține furnizorului browserului).
 - La redarea unei voci din tab-ul „Toate limbile”, textul mostră și numele vocii sunt trimise prin HTTPS (`fetch`) la releul **https://alexio.tf/tts**, care returnează audio MP3. Conform notei din aplicație, releul nu păstrează textul după cerere.
+- **Atenție:** releul generează audio cu `edge-tts`, un client neoficial pentru serviciul online Microsoft Edge/Azure TTS; este deci probabil ca textul mostră să fie retransmis și către Microsoft. Politica CSP din pagină permite `connect-src https:` (necesar pentru un releu personalizat setat în `va_endpoint`), deci nu limitează destinațiile cererilor.
 - Linkurile către alte site-uri (ElevenLabs, GitHub, Hugging Face, Patreon, Buy Me a Coffee etc.) sunt simple hiperlegături, deschise doar la click.
 - Aplicația nu conține analytics sau formulare de înregistrare.
 
@@ -48,6 +49,10 @@ Descarcă `index.html` și deschide-l în browser. Fonturile sunt incluse în fi
 ## Licență
 
 CC0 1.0 Universal (domeniu public) — vezi fișierul LICENSE
+
+## Audit
+
+2026-10-10: verificat numărul de voci (427) și de limbi (141) din pagină; singura cerere externă este `POST https://alexio.tf/tts` la acțiunea utilizatorului; corectate contrastul și un element ascuns focusabil. Pagina nu oferă per-character casting sau SSML.
 
 ## Autor
 
