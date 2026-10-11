@@ -27,7 +27,7 @@ VoiceAtelier este o aplicație dintr-un singur fișier `index.html` care prezint
 1. Deschide pagina. Limba interfeței este detectată automat; o poți schimba din lista „Language” din antet.
 2. Comută tema cu butonul din antet (ciclează între automat, luminos, întunecat).
 3. Alege un text din „Text mostră”; ajustează „Viteză” și „Ton”.
-4. În **Starter** și **Storyteller**, apasă ▶ pe cardul unei voci pentru a o auzi. Cu Enter sau Spațiu pe un card se pornește redarea.
+4. În **Starter** și **Storyteller**, apasă ▶ pe cardul unei voci pentru a o auzi (de la tastatură: Tab până la butonul ▶, apoi Enter sau Spațiu). Insigna „On-device” marchează vocile locale; cele furnizate prin rețea de browser/sistem poartă insigna „Voce online”.
 5. În **Toate limbile**, caută o limbă, apoi apasă butonul de probă sau butonul de copiere a comenzii `edge-tts`.
 6. Apasă „⏹ Oprește tot” pentru a opri redarea.
 7. Consultă **Studio Pro** pentru instrumente externe și **Ghid** pentru fluxul de lucru.
@@ -52,6 +52,7 @@ Descarcă `index.html` și deschide-l în browser. Fonturile sunt incluse în fi
 
 Ultima actualizare: 11 octombrie 2026.
 
+- Vocile browserului care nu sunt locale (`localService = false`) primesc insigna „Voce online” (tradusă în cele 15 limbi), ca să fie clar când textul poate pleca spre furnizorul browserului; cardul de voce nu mai este `role="button"` cu buton ▶ în interior (violare axe „nested-interactive”, vizibilă doar când există voci), iar butonul ▶ este controlul focusabil; CSP: `script-src` pe hash SHA-256 (2 scripturi), fără `'unsafe-inline'`.
 - Eliminate toate cele 44 de handlere inline (`onclick`/`oninput`/`onchange`); acțiunile folosesc acum atribute `data-click`/`data-input`/`data-change`/`data-overlay` și ascultători delegați.
 - Dacă nu există nicio voce locală (nici după 5 s), paginile Starter/Storyteller afișează acum o stare goală explicită, în toate cele 15 limbi, cu trimitere la fila „Toate limbile”, în loc de „Loading voices…”.
 - Texte de marketing temperate: „The gold standard” → „A leading commercial service”, „Unlimited (unofficial)” → „No published limit (unofficial)”.
