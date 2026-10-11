@@ -39,14 +39,23 @@ VoiceAtelier este o aplicație dintr-un singur fișier `index.html` care prezint
 - **Rețea:** vocile din tab-urile Starter și Storyteller rulează local prin Web Speech API (aplicația notează că, dacă browserul trimite intern textul unui server, responsabilitatea aparține furnizorului browserului).
 - **Opt-in explicit:** în tab-ul „Toate limbile” (deschis implicit) un avertisment vizibil explică ce pleacă, iar vocile online se redau **doar după ce bifezi** acordul („Înțeleg și sunt de acord…”). Fără bifă, nu se trimite nimic (verificat: 0 cereri la încărcare și la clic fără bifă). Bifa se reține în `localStorage` (`va_relay_ok`).
 - La redarea unei voci din tab-ul „Toate limbile”, textul mostră, numele vocii, viteza și tonul sunt trimise prin HTTPS (`fetch`) la releul **https://alexio.tf/tts**, care generează audio MP3 cu `edge-tts` și îl returnează. **`edge-tts` este o bibliotecă neoficială care folosește serviciul online Microsoft Edge TTS: textul este deci retransmis către Microsoft**, care îl prelucrează conform propriilor condiții (neoficial, fără garanția disponibilității; „gratuit" depinde de acest serviciu). Conform notei din aplicație, releul nu păstrează textul după cerere (afirmația privește serverul autorului și nu poate fi verificată din acest repository).
-- CSP: `connect-src 'self' https://alexio.tf` (înainte `https:`). Cheia `va_endpoint` (releu alternativ setat manual în `localStorage`) funcționează acum doar pentru adrese de pe `alexio.tf`; pentru alt releu trebuie extins CSP-ul din `index.html`.
-- **Atenție:** releul generează audio cu `edge-tts`, un client neoficial pentru serviciul online Microsoft Edge/Azure TTS; este deci probabil ca textul mostră să fie retransmis și către Microsoft. Politica CSP din pagină permite `connect-src https:` (necesar pentru un releu personalizat setat în `va_endpoint`), deci nu limitează destinațiile cererilor.
+- CSP: `connect-src 'self' https://alexio.tf`. Cheia `va_endpoint` (releu alternativ setat manual în `localStorage`) funcționează doar pentru adrese de pe `alexio.tf`; pentru alt releu trebuie extins CSP-ul din `index.html`.
+- **Atenție:** releul generează audio cu `edge-tts`, un client neoficial pentru serviciul online Microsoft Edge/Azure TTS; este deci probabil ca textul mostră să fie retransmis și către Microsoft.
 - Linkurile către alte site-uri (ElevenLabs, GitHub, Hugging Face, Patreon, Buy Me a Coffee etc.) sunt simple hiperlegături, deschise doar la click.
 - Aplicația nu conține analytics sau formulare de înregistrare.
 
 ## Rulare locală / offline
 
 Descarcă `index.html` și deschide-l în browser. Fonturile sunt incluse în fișier. Tab-urile Starter și Storyteller funcționează fără internet, în limita vocilor instalate în sistem/browser. Redarea din „Toate limbile” necesită internet și acces la `alexio.tf`.
+
+## Istoric / Changelog
+
+Ultima actualizare: 11 octombrie 2026.
+
+- Eliminate toate cele 44 de handlere inline (`onclick`/`oninput`/`onchange`); acțiunile folosesc acum atribute `data-click`/`data-input`/`data-change`/`data-overlay` și ascultători delegați.
+- Dacă nu există nicio voce locală (nici după 5 s), paginile Starter/Storyteller afișează acum o stare goală explicită, în toate cele 15 limbi, cu trimitere la fila „Toate limbile”, în loc de „Loading voices…”.
+- Texte de marketing temperate: „The gold standard” → „A leading commercial service”, „Unlimited (unofficial)” → „No published limit (unofficial)”.
+- Widgetul de sprijin este reper `complementary`; axe-core: 0 violări la 1280 și 360 px. Secțiunea de rețea din README a fost corectată (CSP actual: `connect-src 'self' https://alexio.tf`).
 
 ## Licență
 
