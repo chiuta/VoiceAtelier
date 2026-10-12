@@ -1,5 +1,7 @@
 # VoiceAtelier
 
+**Versiune:** 1.0.0 · **Ultima actualizare:** 12 octombrie 2026
+
 Catalog și ghid de voci neurale gratuite pentru audiobook, într-un singur fișier HTML.
 
 **Live:** https://chiuta.github.io/VoiceAtelier/
@@ -50,8 +52,7 @@ Descarcă `index.html` și deschide-l în browser. Fonturile sunt incluse în fi
 
 ## Istoric / Changelog
 
-Ultima actualizare: 11 octombrie 2026.
-
+- 1.0.0 — 2026-10-12: versiunea și data ultimei actualizări sunt afișate în aplicație
 - Runda 7: eliminată afirmația nesusținută că uneltele Studio Pro produc audio „indistinguishable from professional narration” (și „calitate broadcast”) în toate cele 15 limbi — acum textul spune că naturalețea diferă de la voce la voce și recomandă ascultarea mostrelor; starea goală din Starter/Storyteller (fără voci locale) are acum un buton „→ Toate limbile” care duce direct la vocile online.
 - Vocile browserului care nu sunt locale (`localService = false`) primesc insigna „Voce online” (tradusă în cele 15 limbi), ca să fie clar când textul poate pleca spre furnizorul browserului; cardul de voce nu mai este `role="button"` cu buton ▶ în interior (violare axe „nested-interactive”, vizibilă doar când există voci), iar butonul ▶ este controlul focusabil; CSP: `script-src` pe hash SHA-256 (2 scripturi), fără `'unsafe-inline'`.
 - Eliminate toate cele 44 de handlere inline (`onclick`/`oninput`/`onchange`); acțiunile folosesc acum atribute `data-click`/`data-input`/`data-change`/`data-overlay` și ascultători delegați.
