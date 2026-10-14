@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "slug": "voiceatelier",
+  "name": "VoiceAtelier — Voci gratuite pentru audiobook",
+  "version": "1.1.0",
+  "updated": "2026-10-14",
+  "description": "427 voci neurale gratuite în 141 de limbi pentru audiobook. Catalog edge-tts + unelte profesionale.",
+  "egress": [
+    {
+      "host": "alexio.tf",
+      "via": [
+        "csp:connect-src"
+      ]
+    }
+  ],
+  "permissions": [
+    "speechSynthesis",
+    "clipboard",
+    "serviceWorker",
+    "localStorage"
+  ],
+  "storageKeys": [
+    "va_endpoint"
+  ],
+  "sizeBytes": 663559,
+  "sha256": "78515ac17dec317ac0ed922943f6c32fd9cebed5655491508bd7b14ef315ec1d",
+  "csp": {
+    "present": true,
+    "directives": {
+      "default-src": "'self'",
+      "img-src": "'self' data: blob:",
+      "style-src": "'self' 'unsafe-inline'",
+      "font-src": "'self' data:",
+      "media-src": "'self' blob: data:",
+      "object-src": "'none'",
+      "base-uri": "'self'",
+      "form-action": "'self'",
+      "worker-src": "'self' blob:",
+      "script-src": "'self' blob: sha256×4",
+      "connect-src": "'self' https://alexio.tf",
+      "manifest-src": "'self'"
+    },
+    "scriptInline": "hash",
+    "connect": "'self' https://alexio.tf"
+  },
+  "features": {
+    "export": true,
+    "import": true,
+    "i18n": [
+      "ro",
+      "en",
+      "fr",
+      "it",
+      "es",
+      "pt",
+      "de"
+    ],
+    "pwa": {
+      "manifest": true,
+      "serviceWorker": true
+    },
+    "modules": [
+      "core",
+      "label",
+      "bundle"
+    ]
+  },
+  "kit": {
+    "version": "1.0.0",
+    "modules": [
+      "core",
+      "label",
+      "bundle"
+    ]
+  },
+  "selfSerializing": false
+}

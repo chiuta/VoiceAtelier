@@ -1,6 +1,6 @@
 # VoiceAtelier
 
-**Versiune:** 1.0.0 · **Ultima actualizare:** 12 octombrie 2026
+**Versiune:** 1.1.0 · **Ultima actualizare:** 14 octombrie 2026
 
 Catalog și ghid de voci neurale gratuite pentru audiobook, într-un singur fișier HTML.
 
@@ -51,6 +51,8 @@ VoiceAtelier este o aplicație dintr-un singur fișier `index.html` care prezint
 Descarcă `index.html` și deschide-l în browser. Fonturile sunt incluse în fișier. Tab-urile Starter și Storyteller funcționează fără internet, în limita vocilor instalate în sistem/browser. Redarea din „Toate limbile” necesită internet și acces la `alexio.tf`.
 
 ## Istoric / Changelog
+
+- 1.1.0 — 2026-10-14: Copie de rezervă și etichetare date (fff-kit).
 
 - 1.0.0 — 2026-10-12: versiunea și data ultimei actualizări sunt afișate în aplicație
 - Runda 7: eliminată afirmația nesusținută că uneltele Studio Pro produc audio „indistinguishable from professional narration” (și „calitate broadcast”) în toate cele 15 limbi — acum textul spune că naturalețea diferă de la voce la voce și recomandă ascultarea mostrelor; starea goală din Starter/Storyteller (fără voci locale) are acum un buton „→ Toate limbile” care duce direct la vocile online.
