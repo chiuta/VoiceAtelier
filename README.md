@@ -64,7 +64,7 @@ Descarcă `index.html` și deschide-l în browser. Fonturile sunt incluse în fi
 
 ## Licență
 
-CC0 1.0 Universal (domeniu public) — vezi fișierul LICENSE
+MIT — vezi fișierul LICENSE
 
 ## Audit
 
@@ -76,4 +76,4 @@ Alexio — Alexandru-Ionuț Chiuță, contact: alexio@trom.tf
 
 ## English summary
 
-VoiceAtelier is a single-file HTML catalog and guide to free neural voices for audiobook narration, with a 15-language interface. Starter/Storyteller voices play locally via the Web Speech API; the "All languages" tab sends the sample text and voice name to the relay alexio.tf/tts to get MP3 audio. Settings (language, theme) are kept in localStorage. CC0 1.0.
+VoiceAtelier is a single-file HTML catalog and guide to free neural voices for audiobook narration, with a 15-language interface. Starter/Storyteller voices play locally via the Web Speech API; the "All languages" tab sends the sample text and voice name to the relay alexio.tf/tts to get MP3 audio. Settings (language, theme) are kept in localStorage. MIT licence.
