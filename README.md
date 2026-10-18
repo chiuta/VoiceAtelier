@@ -1,6 +1,6 @@
 # VoiceAtelier
 
-**Versiune:** 1.1.0 · **Ultima actualizare:** 14 octombrie 2026
+**Versiune:** 1.2.0 · **Ultima actualizare:** 18 octombrie 2026
 
 Catalog și ghid de voci neurale gratuite pentru audiobook, într-un singur fișier HTML.
 
@@ -16,7 +16,7 @@ VoiceAtelier este o aplicație dintr-un singur fișier `index.html` care prezint
 
 - Șase secțiuni (tab-uri): **Starter**, **Storyteller**, **Toate limbile**, **Studio Pro**, **Ghid**, **Legal & GDPR**.
 - Redare de probă a vocilor disponibile în browser prin Web Speech API (`speechSynthesis`).
-- Text mostră selectabil dintr-o listă (fragmente din Moby Dick, Pride & Prejudice, A Tale of Two Cities, The Time Machine, Anna Karenina, Mrs Dalloway, *Printre inteligențe*), cu comenzi pentru viteză și ton și buton „Oprește tot”.
+- Text mostră selectabil dintr-o listă (fragmente din Moby Dick, Pride & Prejudice, A Tale of Two Cities, The Time Machine, Anna Karenina, Mrs Dalloway, *Printre inteligențe*, *Nota Zero*), cu comenzi pentru viteză și ton și buton „Oprește tot”.
 - Tab-ul „Toate limbile”: grilă de limbi cu căutare, buton de probă și buton de copiere a comenzii `edge-tts` pentru fiecare limbă.
 - Studio Pro: fișe de prezentare pentru ElevenLabs, Microsoft Edge TTS, Kokoro TTS, Bark, Google Cloud TTS, Coqui TTS și Amazon Polly (limite, limbi, formate, link).
 - Ghid: explicarea celor trei niveluri, criterii de alegere a vocii, flux de lucru cu `edge-tts`, Audacity și ffmpeg (`loudnorm`), cerințe ACX/Audible.
@@ -52,6 +52,7 @@ Descarcă `index.html` și deschide-l în browser. Fonturile sunt incluse în fi
 
 ## Istoric / Changelog
 
+- 1.2.0 — 2026-10-18: Mostră nouă în listă: *Nota Zero* (două propoziții din Vol. I).
 - 1.1.0 — 2026-10-14: Copie de rezervă și etichetare date (fff-kit).
 
 - 1.0.0 — 2026-10-12: versiunea și data ultimei actualizări sunt afișate în aplicație
