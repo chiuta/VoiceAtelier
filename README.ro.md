@@ -2,7 +2,9 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 1.2.0 · **Ultima actualizare:** 2026-10-18
+**Versiune:** 1.3.0 · **Ultima actualizare:** 2026-10-19
+
+Limbile interfeței: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar** + încă 8
 
 Catalog și ghid de voci neurale gratuite pentru audiobook, într-un singur fișier HTML.
 
@@ -22,7 +24,7 @@ VoiceAtelier este o aplicație dintr-un singur fișier `index.html` care prezint
 - Tab-ul „Toate limbile”: grilă de limbi cu căutare, buton de probă și buton de copiere a comenzii `edge-tts` pentru fiecare limbă.
 - Studio Pro: fișe de prezentare pentru ElevenLabs, Microsoft Edge TTS, Kokoro TTS, Bark, Google Cloud TTS, Coqui TTS și Amazon Polly (limite, limbi, formate, link).
 - Ghid: explicarea celor trei niveluri, criterii de alegere a vocii, flux de lucru cu `edge-tts`, Audacity și ffmpeg (`loudnorm`), cerințe ACX/Audible.
-- Interfață în 15 limbi: en, ro, fr, de, es, pt, it, nl, pl, ru, ar, zh, ja, ko, tr.
+- Interfață în 16 limbi: en, ro, fr, de, es, pt, it, nl, pl, ru, ar, zh, ja, ko, tr, hu.
 - Temă automată/luminoasă/întunecată.
 - Ferestre informative (GDPR, cookies, impresum, accesibilitate, takedown, ș.a.).
 
@@ -79,4 +81,4 @@ Alexio — Alexandru-Ionuț Chiuță, contact: alexio@trom.tf
 
 ## English summary
 
-VoiceAtelier is a single-file HTML catalog and guide to free neural voices for audiobook narration, with a 15-language interface. Starter/Storyteller voices play locally via the Web Speech API; the "All languages" tab sends the sample text and voice name to the relay alexio.tf/tts to get MP3 audio. Settings (language, theme) are kept in localStorage. MIT licence.
+VoiceAtelier is a single-file HTML catalog and guide to free neural voices for audiobook narration, with a 16-language interface. Starter/Storyteller voices play locally via the Web Speech API; the "All languages" tab sends the sample text and voice name to the relay alexio.tf/tts to get MP3 audio. Settings (language, theme) are kept in localStorage. MIT licence.

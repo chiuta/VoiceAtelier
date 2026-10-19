@@ -2,7 +2,9 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · **Magyar**
 
-**Verzió:** 1.2.0 · **Utolsó frissítés:** 2026-10-18
+**Verzió:** 1.3.0 · **Utolsó frissítés:** 2026-10-19
+
+A felület nyelvei: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar** + további 8
 
 Ingyenes neurális hangok katalógusa és útmutatója hangoskönyvekhez, egyetlen HTML-fájlban.
 
@@ -22,7 +24,7 @@ A VoiceAtelier egyetlen `index.html` fájlból álló alkalmazás, amely hangosk
 - A „Minden nyelv” lap: nyelvrács kereséssel, próbagombbal és az egyes nyelvekhez tartozó `edge-tts` parancs másolására szolgáló gombbal.
 - Studio Pro: bemutatólapok az ElevenLabs, a Microsoft Edge TTS, a Kokoro TTS, a Bark, a Google Cloud TTS, a Coqui TTS és az Amazon Polly szolgáltatásokról (korlátok, nyelvek, formátumok, hivatkozás).
 - Útmutató: a három szint magyarázata, a hangválasztás szempontjai, munkafolyamat az `edge-tts`, az Audacity és az ffmpeg (`loudnorm`) használatával, ACX/Audible-követelmények.
-- 15 nyelvű felület: en, ro, fr, de, es, pt, it, nl, pl, ru, ar, zh, ja, ko, tr.
+- 16 nyelvű felület: en, ro, fr, de, es, pt, it, nl, pl, ru, ar, zh, ja, ko, tr, hu.
 - Automatikus/világos/sötét téma.
 - Tájékoztató ablakok (GDPR, sütik, impresszum, akadálymentesség, tartalom eltávolítása stb.).
 

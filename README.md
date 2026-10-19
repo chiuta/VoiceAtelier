@@ -2,7 +2,9 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version:** 1.2.0 · **Last updated:** 2026-10-18
+**Version:** 1.3.0 · **Last updated:** 2026-10-19
+
+Interface languages: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar** + 8 more
 
 A catalogue and guide to free neural voices for audiobooks, in a single HTML file.
 
@@ -22,7 +24,7 @@ VoiceAtelier is an application in a single `index.html` file that presents speec
 - The "All languages" tab: a language grid with search, a trial button and a button that copies the `edge-tts` command for each language.
 - Studio Pro: overview sheets for ElevenLabs, Microsoft Edge TTS, Kokoro TTS, Bark, Google Cloud TTS, Coqui TTS and Amazon Polly (limits, languages, formats, link).
 - Guide: an explanation of the three tiers, criteria for choosing a voice, a workflow with `edge-tts`, Audacity and ffmpeg (`loudnorm`), ACX/Audible requirements.
-- Interface in 15 languages: en, ro, fr, de, es, pt, it, nl, pl, ru, ar, zh, ja, ko, tr.
+- Interface in 16 languages: en, ro, fr, de, es, pt, it, nl, pl, ru, ar, zh, ja, ko, tr, hu.
 - Automatic/light/dark theme.
 - Information dialogs (GDPR, cookies, imprint, accessibility, takedown, etc.).
 

@@ -2,7 +2,9 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · **Português** · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versão:** 1.2.0 · **Última atualização:** 2026-10-18
+**Versão:** 1.3.0 · **Última atualização:** 2026-10-19
+
+Idiomas da interface: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar** + mais 8
 
 Catálogo e guia de vozes neurais gratuitas para audiolivros, num único ficheiro HTML.
 
@@ -22,7 +24,7 @@ O VoiceAtelier é uma aplicação num único ficheiro `index.html` que apresenta
 - O separador «Todos os idiomas»: uma grelha de idiomas com pesquisa, um botão de teste e um botão para copiar o comando `edge-tts` de cada idioma.
 - Studio Pro: fichas de apresentação do ElevenLabs, Microsoft Edge TTS, Kokoro TTS, Bark, Google Cloud TTS, Coqui TTS e Amazon Polly (limites, idiomas, formatos, ligação).
 - Guia: explicação dos três níveis, critérios de escolha da voz, fluxo de trabalho com `edge-tts`, Audacity e ffmpeg (`loudnorm`), requisitos ACX/Audible.
-- Interface em 15 idiomas: en, ro, fr, de, es, pt, it, nl, pl, ru, ar, zh, ja, ko, tr.
+- Interface em 16 idiomas: en, ro, fr, de, es, pt, it, nl, pl, ru, ar, zh, ja, ko, tr, hu.
 - Tema automático/claro/escuro.
 - Janelas informativas (RGPD, cookies, ficha legal, acessibilidade, remoção de conteúdo, etc.).
 
