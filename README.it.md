@@ -10,7 +10,7 @@ Catalogo e guida di voci neurali gratuite per audiolibri, in un unico file HTML.
 
 **Online:** https://chiuta.github.io/VoiceAtelier/
 
-![Schermata](screenshot.png)
+![Schermata](screenshot.it.png)
 
 ## Che cos'è
 

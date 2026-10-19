@@ -10,7 +10,7 @@ A catalogue and guide to free neural voices for audiobooks, in a single HTML fil
 
 **Live:** https://chiuta.github.io/VoiceAtelier/
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.en.png)
 
 ## What it is
 

@@ -10,7 +10,7 @@ Katalog und Leitfaden für kostenlose neuronale Stimmen für Hörbücher, in ein
 
 **Online:** https://chiuta.github.io/VoiceAtelier/
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.de.png)
 
 ## Was es ist
 

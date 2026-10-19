@@ -10,7 +10,7 @@ Catálogo y guía de voces neuronales gratuitas para audiolibros, en un único a
 
 **En línea:** https://chiuta.github.io/VoiceAtelier/
 
-![Captura de pantalla](screenshot.png)
+![Captura de pantalla](screenshot.es.png)
 
 ## Qué es
 

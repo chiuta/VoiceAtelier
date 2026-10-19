@@ -10,7 +10,7 @@ Ingyenes neurális hangok katalógusa és útmutatója hangoskönyvekhez, egyetl
 
 **Online:** https://chiuta.github.io/VoiceAtelier/
 
-![Képernyőkép](screenshot.png)
+![Képernyőkép](screenshot.hu.png)
 
 ## Mi ez
 

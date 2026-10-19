@@ -10,7 +10,7 @@ Catalog și ghid de voci neurale gratuite pentru audiobook, într-un singur fiș
 
 **Live:** https://chiuta.github.io/VoiceAtelier/
 
-![Captura de ecran](screenshot.png)
+![Captura de ecran](screenshot.ro.png)
 
 ## Ce este
 
