@@ -79,6 +79,6 @@ MIT — vezi fișierul LICENSE
 
 Alexio — Alexandru-Ionuț Chiuță, contact: alexio@trom.tf
 
-## English summary
+## Rezumat
 
-VoiceAtelier is a single-file HTML catalog and guide to free neural voices for audiobook narration, with a 16-language interface. Starter/Storyteller voices play locally via the Web Speech API; the "All languages" tab sends the sample text and voice name to the relay alexio.tf/tts to get MP3 audio. Settings (language, theme) are kept in localStorage. MIT licence.
+VoiceAtelier este un catalog și ghid într-un singur fișier HTML al vocilor neuronale gratuite pentru naratarea cărților audio, cu interfață în 16 limbi. Vocile Starter/Storyteller se redau local prin Web Speech API; fila „Toate limbile” trimite textul-probă și numele vocii către releul alexio.tf/tts pentru a obține audio MP3. Setările (limba, tema) se păstrează în localStorage. Licență MIT.
