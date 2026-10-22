@@ -2,7 +2,7 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 1.3.2 · **Ultima actualizare:** 2026-10-22
+**Versiune:** 1.3.4 · **Ultima actualizare:** 2026-10-22
 
 Limbile interfeței: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar** + încă 8
 
@@ -56,6 +56,7 @@ Descarcă `index.html` și deschide-l în browser. Fonturile sunt incluse în fi
 
 ## Istoric / Changelog
 
+- 1.3.4 — 2026-10-22: fff-kit 1.1.2: PBKDF2 600 000 de iterații, protecție anti-clickjacking.
 - 1.3.3 — 2026-10-22: Trecere pentru mobil la 360 px: tot textul ≥ 12 px, ținte ≥ 24 px (pastile de voce, glisoare, casetă de bifat, linkurile din subsol; file și butoane ≥ 36 px); eticheta de versiune din subsol sincronizată.
 
 - 1.3.2 — 2026-10-22: Au fost adăugate șirurile lipsă în franceză, italiană, spaniolă, portugheză și germană (nota de confidențialitate și acordul pentru vocile online, contoarele de voci, descrierile uneltelor din tabul Studio); meta descrierea și descrierea din panoul fff-kit urmează limba interfeței.

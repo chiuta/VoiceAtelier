@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · **Deutsch** · [Magyar](README.hu.md)
 
-**Version:** 1.3.2 · **Zuletzt aktualisiert:** 2026-10-22
+**Version:** 1.3.4 · **Zuletzt aktualisiert:** 2026-10-22
 
 Oberflächensprachen: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar** + 8 weitere
 
@@ -56,6 +56,7 @@ Lade `index.html` herunter und öffne sie im Browser. Die Schriftarten sind in d
 
 ## Verlauf / Changelog
 
+- 1.3.4 — 2026-10-22: fff-kit 1.1.2: PBKDF2 mit 600.000 Iterationen, Schutz vor Clickjacking.
 - 1.3.3 — 2026-10-22: Mobil-Durchgang bei 360 px: aller Text ≥ 12 px, Ziele ≥ 24 px (Stimmen-Pillen, Schieberegler, Kontrollkästchen, Fußzeilenlinks; Tabs und Schaltflächen ≥ 36 px); Versionsangabe in der Fußzeile synchronisiert.
 
 - 1.3.2 — 2026-10-22: Fehlende Texte auf Französisch, Italienisch, Spanisch, Portugiesisch und Deutsch ergänzt (Datenschutzhinweis und Einwilligung für Online-Stimmen, Stimmenzähler, Werkzeugbeschreibungen im Studio-Tab); Meta-Beschreibung und Beschreibung im fff-kit-Panel folgen der Oberflächensprache.

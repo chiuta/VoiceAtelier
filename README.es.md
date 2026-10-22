@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · **Español** · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versión:** 1.3.2 · **Última actualización:** 2026-10-22
+**Versión:** 1.3.4 · **Última actualización:** 2026-10-22
 
 Idiomas de la interfaz: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar** + 8 más
 
@@ -56,6 +56,7 @@ Descarga `index.html` y ábrelo en el navegador. Las fuentes están incluidas en
 
 ## Historial / Changelog
 
+- 1.3.4 — 2026-10-22: fff-kit 1.1.2: PBKDF2 con 600.000 iteraciones, protección anti-clickjacking.
 - 1.3.3 — 2026-10-22: Pasada móvil a 360 px: todo el texto ≥ 12 px, objetivos ≥ 24 px (píldoras de voz, deslizadores, casilla, enlaces del pie; pestañas y botones ≥ 36 px); etiqueta de versión del pie sincronizada.
 
 - 1.3.2 — 2026-10-22: Se añadieron las cadenas que faltaban en francés, italiano, español, portugués y alemán (aviso de privacidad y consentimiento de las voces en línea, contadores de voces, descripciones de las herramientas de la pestaña Studio); la meta descripción y la descripción del panel fff-kit siguen el idioma de la interfaz.

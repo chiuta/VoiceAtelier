@@ -2,7 +2,7 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version:** 1.3.2 · **Last updated:** 2026-10-22
+**Version:** 1.3.4 · **Last updated:** 2026-10-22
 
 Interface languages: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar** + 8 more
 
@@ -56,6 +56,7 @@ Download `index.html` and open it in the browser. The fonts are included in the 
 
 ## History / Changelog
 
+- 1.3.4 — 2026-10-22: fff-kit 1.1.2: PBKDF2 600,000 iterations, anti-clickjacking protection.
 - 1.3.3 — 2026-10-22: Mobile pass at 360 px: all text ≥ 12 px, targets ≥ 24 px (voice pills, sliders, checkbox, footer links, tabs and buttons ≥ 36 px); footer version label in sync.
 
 - 1.3.2 — 2026-10-22: Missing French, Italian, Spanish, Portuguese and German strings added (online-voice privacy notice and consent, voice counters, tool descriptions in the Studio tab); meta description and fff-kit panel description now follow the interface language.
