@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · **Español** · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versión:** 1.3.1 · **Última actualización:** 2026-10-19
+**Versión:** 1.3.2 · **Última actualización:** 2026-10-22
 
 Idiomas de la interfaz: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar** + 8 más
 
@@ -56,6 +56,7 @@ Descarga `index.html` y ábrelo en el navegador. Las fuentes están incluidas en
 
 ## Historial / Changelog
 
+- 1.3.2 — 2026-10-22: Se añadieron las cadenas que faltaban en francés, italiano, español, portugués y alemán (aviso de privacidad y consentimiento de las voces en línea, contadores de voces, descripciones de las herramientas de la pestaña Studio); la meta descripción y la descripción del panel fff-kit siguen el idioma de la interfaz.
 - 1.2.0 — 2026-10-18: nueva muestra en la lista: *Nota Zero* (dos frases del vol. I).
 - 1.1.0 — 2026-10-14: copia de seguridad y etiquetado de datos (fff-kit).
 

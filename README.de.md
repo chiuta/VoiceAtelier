@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · **Deutsch** · [Magyar](README.hu.md)
 
-**Version:** 1.3.1 · **Zuletzt aktualisiert:** 2026-10-19
+**Version:** 1.3.2 · **Zuletzt aktualisiert:** 2026-10-22
 
 Oberflächensprachen: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar** + 8 weitere
 
@@ -56,6 +56,7 @@ Lade `index.html` herunter und öffne sie im Browser. Die Schriftarten sind in d
 
 ## Verlauf / Changelog
 
+- 1.3.2 — 2026-10-22: Fehlende Texte auf Französisch, Italienisch, Spanisch, Portugiesisch und Deutsch ergänzt (Datenschutzhinweis und Einwilligung für Online-Stimmen, Stimmenzähler, Werkzeugbeschreibungen im Studio-Tab); Meta-Beschreibung und Beschreibung im fff-kit-Panel folgen der Oberflächensprache.
 - 1.2.0 — 2026-10-18: Neues Beispiel in der Liste: *Nota Zero* (zwei Sätze aus Bd. I).
 - 1.1.0 — 2026-10-14: Datensicherung und Datenkennzeichnung (fff-kit).
 

@@ -2,7 +2,7 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version:** 1.3.1 · **Last updated:** 2026-10-19
+**Version:** 1.3.2 · **Last updated:** 2026-10-22
 
 Interface languages: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar** + 8 more
 
@@ -56,6 +56,7 @@ Download `index.html` and open it in the browser. The fonts are included in the 
 
 ## History / Changelog
 
+- 1.3.2 — 2026-10-22: Missing French, Italian, Spanish, Portuguese and German strings added (online-voice privacy notice and consent, voice counters, tool descriptions in the Studio tab); meta description and fff-kit panel description now follow the interface language.
 - 1.2.0 — 2026-10-18: New sample in the list: *Nota Zero* (two sentences from Vol. I).
 - 1.1.0 — 2026-10-14: Backup and data labelling (fff-kit).
 

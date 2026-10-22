@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · **Français** · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version :** 1.3.1 · **Dernière mise à jour :** 2026-10-19
+**Version :** 1.3.2 · **Dernière mise à jour :** 2026-10-22
 
 Langues de l'interface : **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar** + 8 autres
 
@@ -56,6 +56,7 @@ Téléchargez `index.html` et ouvrez-le dans le navigateur. Les polices sont inc
 
 ## Historique / Changelog
 
+- 1.3.2 — 2026-10-22: Chaînes manquantes ajoutées en français, italien, espagnol, portugais et allemand (note de confidentialité et consentement pour les voix en ligne, compteurs de voix, descriptions des outils de l'onglet Studio) ; la méta-description et la description du panneau fff-kit suivent la langue de l'interface.
 - 1.2.0 — 2026-10-18 : nouvel exemple dans la liste : *Nota Zero* (deux phrases du vol. I).
 - 1.1.0 — 2026-10-14 : sauvegarde et étiquetage des données (fff-kit).
 
