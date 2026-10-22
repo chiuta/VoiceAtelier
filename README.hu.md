@@ -56,6 +56,8 @@ Töltsd le az `index.html` fájlt, és nyisd meg a böngészőben. A betűtípus
 
 ## Előzmények / Changelog
 
+- 1.3.3 — 2026-10-22: Mobilos átnézés 360 px-en: minden szöveg ≥ 12 px, érintési célok ≥ 24 px (hangcímkék, csúszkák, jelölőnégyzet, lábléc-hivatkozások; fülek és gombok ≥ 36 px); a lábléc verziócímkéje szinkronban.
+
 - 1.3.2 — 2026-10-22: Pótoltuk a hiányzó francia, olasz, spanyol, portugál és német szövegeket (online hangok adatvédelmi tájékoztatója és hozzájárulása, hangszámlálók, az Studio lap eszközleírásai); a meta leírás és az fff-kit panel leírása a felület nyelvét követi.
 - 1.2.0 — 2026-10-18: Új minta a listában: *Nota Zero* (két mondat az I. kötetből).
 - 1.1.0 — 2026-10-14: adatmentés és adatcímkézés (fff-kit).

@@ -56,6 +56,8 @@ Download `index.html` and open it in the browser. The fonts are included in the 
 
 ## History / Changelog
 
+- 1.3.3 — 2026-10-22: Mobile pass at 360 px: all text ≥ 12 px, targets ≥ 24 px (voice pills, sliders, checkbox, footer links, tabs and buttons ≥ 36 px); footer version label in sync.
+
 - 1.3.2 — 2026-10-22: Missing French, Italian, Spanish, Portuguese and German strings added (online-voice privacy notice and consent, voice counters, tool descriptions in the Studio tab); meta description and fff-kit panel description now follow the interface language.
 - 1.2.0 — 2026-10-18: New sample in the list: *Nota Zero* (two sentences from Vol. I).
 - 1.1.0 — 2026-10-14: Backup and data labelling (fff-kit).

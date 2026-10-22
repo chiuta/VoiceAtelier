@@ -56,6 +56,8 @@ Descarcă `index.html` și deschide-l în browser. Fonturile sunt incluse în fi
 
 ## Istoric / Changelog
 
+- 1.3.3 — 2026-10-22: Trecere pentru mobil la 360 px: tot textul ≥ 12 px, ținte ≥ 24 px (pastile de voce, glisoare, casetă de bifat, linkurile din subsol; file și butoane ≥ 36 px); eticheta de versiune din subsol sincronizată.
+
 - 1.3.2 — 2026-10-22: Au fost adăugate șirurile lipsă în franceză, italiană, spaniolă, portugheză și germană (nota de confidențialitate și acordul pentru vocile online, contoarele de voci, descrierile uneltelor din tabul Studio); meta descrierea și descrierea din panoul fff-kit urmează limba interfeței.
 - 1.2.0 — 2026-10-18: Mostră nouă în listă: *Nota Zero* (două propoziții din Vol. I).
 - 1.1.0 — 2026-10-14: Copie de rezervă și etichetare date (fff-kit).

@@ -56,6 +56,8 @@ Téléchargez `index.html` et ouvrez-le dans le navigateur. Les polices sont inc
 
 ## Historique / Changelog
 
+- 1.3.3 — 2026-10-22 : Passage mobile à 360 px : tout le texte ≥ 12 px, cibles ≥ 24 px (pastilles de voix, curseurs, case à cocher, liens du pied de page ; onglets et boutons ≥ 36 px) ; étiquette de version du pied de page synchronisée.
+
 - 1.3.2 — 2026-10-22: Chaînes manquantes ajoutées en français, italien, espagnol, portugais et allemand (note de confidentialité et consentement pour les voix en ligne, compteurs de voix, descriptions des outils de l'onglet Studio) ; la méta-description et la description du panneau fff-kit suivent la langue de l'interface.
 - 1.2.0 — 2026-10-18 : nouvel exemple dans la liste : *Nota Zero* (deux phrases du vol. I).
 - 1.1.0 — 2026-10-14 : sauvegarde et étiquetage des données (fff-kit).

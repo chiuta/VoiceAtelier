@@ -56,6 +56,8 @@ Scarica `index.html` e aprilo nel browser. I font sono inclusi nel file. Le sche
 
 ## Cronologia / Changelog
 
+- 1.3.3 — 2026-10-22: Passaggio mobile a 360 px: tutto il testo ≥ 12 px, target ≥ 24 px (pillole delle voci, cursori, casella, link del piè di pagina; schede e pulsanti ≥ 36 px); etichetta di versione del piè di pagina sincronizzata.
+
 - 1.3.2 — 2026-10-22: Aggiunte le stringhe mancanti in francese, italiano, spagnolo, portoghese e tedesco (informativa sulla privacy e consenso per le voci online, contatori delle voci, descrizioni degli strumenti nella scheda Studio); la meta descrizione e la descrizione del pannello fff-kit seguono la lingua dell'interfaccia.
 - 1.2.0 — 2026-10-18: nuovo esempio nell'elenco: *Nota Zero* (due frasi dal vol. I).
 - 1.1.0 — 2026-10-14: backup ed etichettatura dei dati (fff-kit).

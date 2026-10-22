@@ -56,6 +56,8 @@ Lade `index.html` herunter und öffne sie im Browser. Die Schriftarten sind in d
 
 ## Verlauf / Changelog
 
+- 1.3.3 — 2026-10-22: Mobil-Durchgang bei 360 px: aller Text ≥ 12 px, Ziele ≥ 24 px (Stimmen-Pillen, Schieberegler, Kontrollkästchen, Fußzeilenlinks; Tabs und Schaltflächen ≥ 36 px); Versionsangabe in der Fußzeile synchronisiert.
+
 - 1.3.2 — 2026-10-22: Fehlende Texte auf Französisch, Italienisch, Spanisch, Portugiesisch und Deutsch ergänzt (Datenschutzhinweis und Einwilligung für Online-Stimmen, Stimmenzähler, Werkzeugbeschreibungen im Studio-Tab); Meta-Beschreibung und Beschreibung im fff-kit-Panel folgen der Oberflächensprache.
 - 1.2.0 — 2026-10-18: Neues Beispiel in der Liste: *Nota Zero* (zwei Sätze aus Bd. I).
 - 1.1.0 — 2026-10-14: Datensicherung und Datenkennzeichnung (fff-kit).

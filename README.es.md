@@ -56,6 +56,8 @@ Descarga `index.html` y ábrelo en el navegador. Las fuentes están incluidas en
 
 ## Historial / Changelog
 
+- 1.3.3 — 2026-10-22: Pasada móvil a 360 px: todo el texto ≥ 12 px, objetivos ≥ 24 px (píldoras de voz, deslizadores, casilla, enlaces del pie; pestañas y botones ≥ 36 px); etiqueta de versión del pie sincronizada.
+
 - 1.3.2 — 2026-10-22: Se añadieron las cadenas que faltaban en francés, italiano, español, portugués y alemán (aviso de privacidad y consentimiento de las voces en línea, contadores de voces, descripciones de las herramientas de la pestaña Studio); la meta descripción y la descripción del panel fff-kit siguen el idioma de la interfaz.
 - 1.2.0 — 2026-10-18: nueva muestra en la lista: *Nota Zero* (dos frases del vol. I).
 - 1.1.0 — 2026-10-14: copia de seguridad y etiquetado de datos (fff-kit).
