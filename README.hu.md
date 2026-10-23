@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · **Magyar**
 
-**Verzió:** 1.3.6 · **Utolsó frissítés:** 2026-10-23
+**Verzió:** 1.3.7 · **Utolsó frissítés:** 2026-10-23
 
 A felület nyelvei: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar** + további 8
 
@@ -56,6 +56,7 @@ Töltsd le az `index.html` fájlt, és nyisd meg a böngészőben. A betűtípus
 
 ## Előzmények / Changelog
 
+- 1.3.7 — 2026-10-23: érintőképernyőn (`pointer: coarse`) a hangok gombjai, a minta-/kereső-/szűrőmezők, a téma- és leállítógombok és a jogi lábléc gombjai 44 px-es érintési célpontot kapnak.
 - 1.3.5 — 2026-10-22: fff-kit 1.1.4: érintési célpontok és minimális szövegméret; érintési célpontok/szöveg javítva
 - 1.3.4 — 2026-10-22: fff-kit 1.1.2: PBKDF2 600 000 iterációval, clickjacking elleni védelem.
 - 1.3.3 — 2026-10-22: Mobilos átnézés 360 px-en: minden szöveg ≥ 12 px, érintési célok ≥ 24 px (hangcímkék, csúszkák, jelölőnégyzet, lábléc-hivatkozások; fülek és gombok ≥ 36 px); a lábléc verziócímkéje szinkronban.
