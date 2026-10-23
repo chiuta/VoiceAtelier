@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · **Italiano** · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versione:** 1.3.6 · **Ultimo aggiornamento:** 2026-10-23
+**Versione:** 1.3.7 · **Ultimo aggiornamento:** 2026-10-23
 
 Lingue dell'interfaccia: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar** + altre 8
 
@@ -56,6 +56,7 @@ Scarica `index.html` e aprilo nel browser. I font sono inclusi nel file. Le sche
 
 ## Cronologia / Changelog
 
+- 1.3.7 — 2026-10-23: sugli schermi tattili (`pointer: coarse`) i pulsanti delle voci, i campi di esempio/ricerca/filtro, i pulsanti tema e stop e quelli del piè di pagina legale hanno un'area tattile di 44 px.
 - 1.3.5 — 2026-10-22: fff-kit 1.1.4: bersagli touch e testo minimo; bersagli touch/testo corretti
 - 1.3.4 — 2026-10-22: fff-kit 1.1.2: PBKDF2 a 600.000 iterazioni, protezione anti-clickjacking.
 - 1.3.3 — 2026-10-22: Passaggio mobile a 360 px: tutto il testo ≥ 12 px, target ≥ 24 px (pillole delle voci, cursori, casella, link del piè di pagina; schede e pulsanti ≥ 36 px); etichetta di versione del piè di pagina sincronizzata.
