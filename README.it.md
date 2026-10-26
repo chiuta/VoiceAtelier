@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · **Italiano** · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versione:** 1.3.8 · **Ultimo aggiornamento:** 2026-10-26
+**Versione:** 2.0.0 · **Ultimo aggiornamento:** 2026-10-26
 
 Lingue dell'interfaccia: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar** + altre 8
 
@@ -56,6 +56,7 @@ Scarica `index.html` e aprilo nel browser. I font sono inclusi nel file. Le sche
 
 ## Cronologia / Changelog
 
+- 2.0.0 — 2026-10-26: nuova scheda **Studio di copione**: copione multi-personaggio (`Nome: testo`) con voci, pause ed enfasi, guida alla pronuncia, stili salvati, esportazione del progetto (JSON) o di uno script edge-tts + ffmpeg (una traccia allineata per personaggio).
 - 1.3.7 — 2026-10-23: sugli schermi tattili (`pointer: coarse`) i pulsanti delle voci, i campi di esempio/ricerca/filtro, i pulsanti tema e stop e quelli del piè di pagina legale hanno un'area tattile di 44 px.
 - 1.3.5 — 2026-10-22: fff-kit 1.1.4: bersagli touch e testo minimo; bersagli touch/testo corretti
 - 1.3.4 — 2026-10-22: fff-kit 1.1.2: PBKDF2 a 600.000 iterazioni, protezione anti-clickjacking.

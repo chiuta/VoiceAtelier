@@ -2,7 +2,7 @@
   "schema": 1,
   "slug": "voiceatelier",
   "name": "VoiceAtelier — Voci gratuite pentru audiobook",
-  "version": "1.3.8",
+  "version": "2.0.0",
   "updated": "2026-10-26",
   "description": "427 voci neurale gratuite în 141 de limbi pentru audiobook. Catalog edge-tts + unelte profesionale.",
   "egress": [
@@ -22,8 +22,8 @@
   "storageKeys": [
     "va_endpoint"
   ],
-  "sizeBytes": 815299,
-  "sha256": "17e610360f4bd5fe49d126cc12037d88b1382d871e85acd3bd9a96cee39e687f",
+  "sizeBytes": 861348,
+  "sha256": "b64fe2ff80241c768f946e46f4b83be42968f167ea60844ae6eba30cdcb338ee",
   "csp": {
     "present": true,
     "directives": {

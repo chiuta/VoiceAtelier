@@ -2,7 +2,7 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version:** 1.3.8 · **Last updated:** 2026-10-26
+**Version:** 2.0.0 · **Last updated:** 2026-10-26
 
 Interface languages: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar** + 8 more
 
@@ -56,6 +56,7 @@ Download `index.html` and open it in the browser. The fonts are included in the 
 
 ## History / Changelog
 
+- 2.0.0 — 2026-10-26: new **Script studio** tab: write a script with several characters (`Name: text`), give each its own voice, speed, pitch and volume, add pauses and emphasis, keep a pronunciation guide and saved styles, play it with the voices on your device, and export a project (JSON) or an edge-tts + ffmpeg script that builds one aligned audio track per character. Playback itself is not recorded (browsers give no access to it).
 - 1.3.7 — 2026-10-23: on touch screens (`pointer: coarse`) voice buttons, sample/search/filter fields, theme and stop buttons and the legal footer buttons now have a 44 px touch target.
 - 1.3.5 — 2026-10-22: fff-kit 1.1.4: touch targets and minimum text size; touch targets/text fixed
 - 1.3.4 — 2026-10-22: fff-kit 1.1.2: PBKDF2 600,000 iterations, anti-clickjacking protection.

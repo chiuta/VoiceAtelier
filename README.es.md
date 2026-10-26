@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · **Español** · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versión:** 1.3.8 · **Última actualización:** 2026-10-26
+**Versión:** 2.0.0 · **Última actualización:** 2026-10-26
 
 Idiomas de la interfaz: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar** + 8 más
 
@@ -56,6 +56,7 @@ Descarga `index.html` y ábrelo en el navegador. Las fuentes están incluidas en
 
 ## Historial / Changelog
 
+- 2.0.0 — 2026-10-26: nueva pestaña **Estudio de guion**: guion con varios personajes (`Nombre: texto`), voces, pausas y énfasis, guía de pronunciación, estilos guardados y exportación del proyecto (JSON) o de un script edge-tts + ffmpeg (una pista alineada por personaje).
 - 1.3.7 — 2026-10-23: en pantallas táctiles (`pointer: coarse`) los botones de voz, los campos de ejemplo/búsqueda/filtro, los botones de tema y de parada y los del pie legal tienen un área táctil de 44 px.
 - 1.3.5 — 2026-10-22: fff-kit 1.1.4: objetivos táctiles y texto mínimo; objetivos táctiles/texto corregidos
 - 1.3.4 — 2026-10-22: fff-kit 1.1.2: PBKDF2 con 600.000 iteraciones, protección anti-clickjacking.

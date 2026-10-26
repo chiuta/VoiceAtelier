@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · **Deutsch** · [Magyar](README.hu.md)
 
-**Version:** 1.3.8 · **Zuletzt aktualisiert:** 2026-10-26
+**Version:** 2.0.0 · **Zuletzt aktualisiert:** 2026-10-26
 
 Oberflächensprachen: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar** + 8 weitere
 
@@ -56,6 +56,7 @@ Lade `index.html` herunter und öffne sie im Browser. Die Schriftarten sind in d
 
 ## Verlauf / Changelog
 
+- 2.0.0 — 2026-10-26: neuer Tab **Skript-Studio**: Skript mit mehreren Figuren (`Name: Text`), Stimmen, Pausen und Betonungen, Aussprachehilfe, gespeicherte Stile, Export des Projekts (JSON) oder eines edge-tts-+-ffmpeg-Skripts (eine ausgerichtete Spur pro Figur).
 - 1.3.7 — 2026-10-23: auf Touchscreens (`pointer: coarse`) haben Stimmen-Schaltflächen, Beispiel-/Such-/Filterfelder, Theme- und Stopp-Schaltflächen sowie die Schaltflächen der rechtlichen Fußzeile ein Touch-Ziel von 44 px.
 - 1.3.5 — 2026-10-22: fff-kit 1.1.4: Touch-Ziele und Mindestschriftgröße; Touch-Ziele/Text korrigiert
 - 1.3.4 — 2026-10-22: fff-kit 1.1.2: PBKDF2 mit 600.000 Iterationen, Schutz vor Clickjacking.

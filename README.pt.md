@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · **Português** · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versão:** 1.3.8 · **Última atualização:** 2026-10-26
+**Versão:** 2.0.0 · **Última atualização:** 2026-10-26
 
 Idiomas da interface: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar** + mais 8
 
@@ -56,6 +56,7 @@ Descarregue `index.html` e abra-o no navegador. Os tipos de letra estão incluí
 
 ## Histórico / Changelog
 
+- 2.0.0 — 2026-10-26: novo separador **Estúdio de guião**: guião com várias personagens (`Nome: texto`), vozes, pausas e ênfases, guia de pronúncia, estilos guardados e exportação do projeto (JSON) ou de um script edge-tts + ffmpeg (uma pista alinhada por personagem).
 - 1.3.7 — 2026-10-23: em ecrãs táteis (`pointer: coarse`) os botões de voz, os campos de exemplo/pesquisa/filtro, os botões de tema e de paragem e os do rodapé legal têm uma área tátil de 44 px.
 - 1.3.5 — 2026-10-22: fff-kit 1.1.4: alvos táteis e texto mínimo; alvos táteis/texto corrigidos
 - 1.3.4 — 2026-10-22: fff-kit 1.1.2: PBKDF2 com 600.000 iterações, proteção anti-clickjacking.

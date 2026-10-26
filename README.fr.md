@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · **Français** · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version :** 1.3.8 · **Dernière mise à jour :** 2026-10-26
+**Version :** 2.0.0 · **Dernière mise à jour :** 2026-10-26
 
 Langues de l'interface : **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar** + 8 autres
 
@@ -56,6 +56,7 @@ Téléchargez `index.html` et ouvrez-le dans le navigateur. Les polices sont inc
 
 ## Historique / Changelog
 
+- 2.0.0 — 2026-10-26 : nouvel onglet **Studio de script** : script multi-personnages (`Nom: texte`) avec voix, pauses et accents, guide de prononciation, styles enregistrés, export du projet (JSON) ou d'un script edge-tts + ffmpeg (une piste alignée par personnage).
 - 1.3.7 — 2026-10-23 : sur écrans tactiles (`pointer: coarse`), les boutons de voix, les champs d'exemple/recherche/filtre, les boutons de thème et d'arrêt et ceux du pied de page juridique ont une cible tactile de 44 px.
 - 1.3.5 — 2026-10-22 : fff-kit 1.1.4 : cibles tactiles et taille de texte minimale; cibles tactiles/texte corrigés
 - 1.3.4 — 2026-10-22 : fff-kit 1.1.2 : PBKDF2 à 600 000 itérations, protection anti-clickjacking.

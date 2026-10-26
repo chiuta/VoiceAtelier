@@ -2,7 +2,7 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · **Magyar**
 
-**Verzió:** 1.3.8 · **Utolsó frissítés:** 2026-10-26
+**Verzió:** 2.0.0 · **Utolsó frissítés:** 2026-10-26
 
 A felület nyelvei: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar** + további 8
 
@@ -56,6 +56,7 @@ Töltsd le az `index.html` fájlt, és nyisd meg a böngészőben. A betűtípus
 
 ## Előzmények / Changelog
 
+- 2.0.0 — 2026-10-26: új **Forgatókönyv-stúdió** fül: többszereplős forgatókönyv (`Név: szöveg`) hangokkal, szünetekkel és hangsúlyokkal, kiejtési útmutató, mentett stílusok, a projekt (JSON) vagy egy edge-tts + ffmpeg szkript exportálása (szereplőnként egy igazított sáv).
 - 1.3.7 — 2026-10-23: érintőképernyőn (`pointer: coarse`) a hangok gombjai, a minta-/kereső-/szűrőmezők, a téma- és leállítógombok és a jogi lábléc gombjai 44 px-es érintési célpontot kapnak.
 - 1.3.5 — 2026-10-22: fff-kit 1.1.4: érintési célpontok és minimális szövegméret; érintési célpontok/szöveg javítva
 - 1.3.4 — 2026-10-22: fff-kit 1.1.2: PBKDF2 600 000 iterációval, clickjacking elleni védelem.

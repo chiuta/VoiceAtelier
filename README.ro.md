@@ -2,7 +2,7 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 1.3.8 · **Ultima actualizare:** 2026-10-26
+**Versiune:** 2.0.0 · **Ultima actualizare:** 2026-10-26
 
 Limbile interfeței: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar** + încă 8
 
@@ -18,11 +18,12 @@ VoiceAtelier este o aplicație dintr-un singur fișier `index.html` care prezint
 
 ## Funcții
 
-- Șase secțiuni (tab-uri): **Starter**, **Storyteller**, **Toate limbile**, **Studio Pro**, **Ghid**, **Legal & GDPR**.
+- Șapte secțiuni (tab-uri): **Starter**, **Storyteller**, **Toate limbile**, **Studio de script**, **Studio Pro**, **Ghid**, **Legal & GDPR**.
 - Redare de probă a vocilor disponibile în browser prin Web Speech API (`speechSynthesis`).
 - Text mostră selectabil dintr-o listă (fragmente din Moby Dick, Pride & Prejudice, A Tale of Two Cities, The Time Machine, Anna Karenina, Mrs Dalloway, *Printre inteligențe*, *Nota Zero*), cu comenzi pentru viteză și ton și buton „Oprește tot”.
 - Tab-ul „Toate limbile”: grilă de limbi cu căutare, buton de probă și buton de copiere a comenzii `edge-tts` pentru fiecare limbă.
 - Studio Pro: fișe de prezentare pentru ElevenLabs, Microsoft Edge TTS, Kokoro TTS, Bark, Google Cloud TTS, Coqui TTS și Amazon Polly (limite, limbi, formate, link).
+- **Studio de script** (2.0): script cu personaje, voce/viteză/ton/volum pe personaj, pauze `[pauză 1.5s]` și accente `*așa*`, ghid de pronunție, stiluri salvate, redare cu vocile locale, export JSON și script edge-tts + ffmpeg cu pistă separată pe personaj.
 - Ghid: explicarea celor trei niveluri, criterii de alegere a vocii, flux de lucru cu `edge-tts`, Audacity și ffmpeg (`loudnorm`), cerințe ACX/Audible.
 - Interfață în 16 limbi: en, ro, fr, de, es, pt, it, nl, pl, ru, ar, zh, ja, ko, tr, hu.
 - Temă automată/luminoasă/întunecată.
@@ -56,6 +57,7 @@ Descarcă `index.html` și deschide-l în browser. Fonturile sunt incluse în fi
 
 ## Istoric / Changelog
 
+- 2.0.0 — 2026-10-26: filă nouă **Studio de script**: scrii un script cu mai multe personaje (`Nume: text`), dai fiecăruia voce, viteză, ton și volum, adaugi pauze și accente, ții un ghid de pronunție și stiluri salvate, îl redai cu vocile din dispozitiv și exporți un proiect (JSON) sau un script edge-tts + ffmpeg care construiește câte o pistă audio aliniată pentru fiecare personaj. Redarea în sine nu se înregistrează (browserele nu dau acces la ea).
 - 1.3.7 — 2026-10-23: pe ecrane tactile (`pointer: coarse`) butoanele de voce, câmpurile de exemplu/căutare/filtru, butoanele de temă și de oprire și butoanele din subsolul juridic au acum o țintă tactilă de 44 px.
 - 1.3.5 — 2026-10-22: fff-kit 1.1.4: ținte tactile și text minim; ținte tactile/text corectate
 - 1.3.4 — 2026-10-22: fff-kit 1.1.2: PBKDF2 600 000 de iterații, protecție anti-clickjacking.
