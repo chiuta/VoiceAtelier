@@ -2,7 +2,11 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 2.0.0 · **Ultima actualizare:** 2026-10-26
+**Versiune:** 2.0.1 · **Ultima actualizare:** 2026-10-27
+
+**Stare:** stabilă (2.0.1). Catalogul de voci a fost modificat ultima dată în depozit la 2026-04-12 și nu a fost reverificat față de lista curentă edge-tts. Eșantioane audio pe voce: de adăugat.
+
+**Offline:** parțial. Interfața, catalogul și Studioul de script (cu vocile instalate pe dispozitiv) funcționează offline după prima vizită (service worker); fila „Toate limbile” cere conexiune la releu și rămâne oprită până la acord.
 
 Limbile interfeței: **Română, English, Français, Italiano, Español, Português (PT), Deutsch, Magyar** + încă 8
 
@@ -57,6 +61,7 @@ Descarcă `index.html` și deschide-l în browser. Fonturile sunt incluse în fi
 
 ## Istoric / Changelog
 
+- 2.0.1 — 2026-10-27: doar text. Notă despre data catalogului (427 de voci / 141 de localizări, ultima modificare 2026-04-12 conform git, neverificat), mențiunea „eșantioane audio de adăugat”, liniile Stare / Offline. Detalii în CHANGELOG.md.
 - 2.0.0 — 2026-10-26: filă nouă **Studio de script**: scrii un script cu mai multe personaje (`Nume: text`), dai fiecăruia voce, viteză, ton și volum, adaugi pauze și accente, ții un ghid de pronunție și stiluri salvate, îl redai cu vocile din dispozitiv și exporți un proiect (JSON) sau un script edge-tts + ffmpeg care construiește câte o pistă audio aliniată pentru fiecare personaj. Redarea în sine nu se înregistrează (browserele nu dau acces la ea).
 - 1.3.7 — 2026-10-23: pe ecrane tactile (`pointer: coarse`) butoanele de voce, câmpurile de exemplu/căutare/filtru, butoanele de temă și de oprire și butoanele din subsolul juridic au acum o țintă tactilă de 44 px.
 - 1.3.5 — 2026-10-22: fff-kit 1.1.4: ținte tactile și text minim; ținte tactile/text corectate
