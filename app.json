@@ -22,8 +22,8 @@
   "storageKeys": [
     "va_endpoint"
   ],
-  "sizeBytes": 861348,
-  "sha256": "b64fe2ff80241c768f946e46f4b83be42968f167ea60844ae6eba30cdcb338ee",
+  "sizeBytes": 862787,
+  "sha256": "65f01c9e247b47691e5be68dbac5955895b833a2e67c15c33677aa44f5510fec",
   "csp": {
     "present": true,
     "directives": {
