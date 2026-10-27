@@ -2,9 +2,9 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Version:** 2.0.1 · **Last updated:** 2026-10-27
+**Version:** 2.1.0 · **Last updated:** 2026-10-27
 
-**Status:** stable (2.0.1). The voice catalogue was last changed in the repository on 2026-04-12 and has not been re-checked against the current edge-tts list. Per-voice audio samples: to be added.
+**Status:** stable (2.1.0). The voice catalogue was last changed in the repository on 2026-04-12 and has not been re-checked against the current edge-tts list. Per-voice audio samples: to be added.
 
 **Offline:** partial. The interface, the catalogue and the Script studio (with the voices installed on your device) work offline after the first visit (service worker); the "All languages" tab needs a network connection to the relay and is off until you opt in.
 
