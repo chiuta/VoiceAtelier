@@ -2,9 +2,9 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 2.0.1 · **Ultima actualizare:** 2026-10-27
+**Versiune:** 2.1.0 · **Ultima actualizare:** 2026-10-27
 
-**Stare:** stabilă (2.0.1). Catalogul de voci a fost modificat ultima dată în depozit la 2026-04-12 și nu a fost reverificat față de lista curentă edge-tts. Eșantioane audio pe voce: de adăugat.
+**Stare:** stabilă (2.1.0). Catalogul de voci a fost modificat ultima dată în depozit la 2026-04-12 și nu a fost reverificat față de lista curentă edge-tts. Eșantioane audio pe voce: de adăugat.
 
 **Offline:** parțial. Interfața, catalogul și Studioul de script (cu vocile instalate pe dispozitiv) funcționează offline după prima vizită (service worker); fila „Toate limbile” cere conexiune la releu și rămâne oprită până la acord.
 
