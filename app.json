@@ -22,8 +22,8 @@
   "storageKeys": [
     "va_endpoint"
   ],
-  "sizeBytes": 866113,
-  "sha256": "314ef4d8ecbdf4a62cba9d98fa4ece0991edf710b28ec675851c1e1b4b36be57",
+  "sizeBytes": 1006548,
+  "sha256": "a2f5749c7d00e9d9ffabd7ccb74d3b4bdb3a41535413f787a81bb8c8b90f2bed",
   "csp": {
     "present": true,
     "directives": {
@@ -65,7 +65,11 @@
       "store",
       "dialog",
       "label",
-      "bundle"
+      "bundle",
+      "qr",
+      "p2p",
+      "sync",
+      "history"
     ]
   },
   "kit": {
@@ -75,7 +79,11 @@
       "store",
       "dialog",
       "label",
-      "bundle"
+      "bundle",
+      "qr",
+      "p2p",
+      "sync",
+      "history"
     ]
   },
   "selfSerializing": false
