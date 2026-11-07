@@ -2,7 +2,7 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**Versiune:** 2.1.0 · **Ultima actualizare:** 2026-10-27
+**Versiune:** 2.1.1 · **Ultima actualizare:** 2026-11-07
 
 **Stare:** stabilă (2.1.0). Catalogul de voci a fost modificat ultima dată în depozit la 2026-04-12 și nu a fost reverificat față de lista curentă edge-tts. Eșantioane audio pe voce: de adăugat.
 
