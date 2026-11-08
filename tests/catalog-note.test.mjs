@@ -1,4 +1,4 @@
-// Teste 2.1.1: nota despre catalog și eșantioane (catNote / samplesNote) în limbile cu dicționar complet (fr/de/es/pt/it/hu: traducere automată). Rețea blocată.
+// Teste 2.1.2: nota despre catalog și eșantioane (catNote / samplesNote) în limbile cu dicționar complet (fr/de/es/pt/it/hu: traducere automată). Rețea blocată.
 import {createRequire} from "module"; import {fileURLToPath} from "url"; import path from "path";
 const require = createRequire(process.env.PW_ROOT || import.meta.url); const {chromium} = require("playwright");
 const here = path.dirname(fileURLToPath(import.meta.url)); const URL_ = "file://" + path.resolve(here, "../index.html");
