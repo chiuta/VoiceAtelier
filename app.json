@@ -17,13 +17,14 @@
     "speechSynthesis",
     "clipboard",
     "serviceWorker",
-    "localStorage"
+    "localStorage",
+    "WebGL"
   ],
   "storageKeys": [
     "va_endpoint"
   ],
-  "sizeBytes": 1060658,
-  "sha256": "ad0447525cd40ba38444fc155a79006d677d81d8768271c4ec4de74a3ba280b8",
+  "sizeBytes": 1112299,
+  "sha256": "3e8d5d707a01ced48d576abb24f0adb4369d8177f8c99889c8644ce5edb4f44e",
   "csp": {
     "present": true,
     "directives": {
@@ -36,7 +37,7 @@
       "base-uri": "'self'",
       "form-action": "'self'",
       "worker-src": "'self' blob:",
-      "script-src": "'self' blob: sha256×4",
+      "script-src": "'self' blob: sha256×5",
       "connect-src": "'self' https://alexio.tf",
       "manifest-src": "'self'"
     },
