@@ -2,8 +2,8 @@
   "schema": 1,
   "slug": "voiceatelier",
   "name": "VoiceAtelier — Voci gratuite pentru audiobook",
-  "version": "2.2.1",
-  "updated": "2026-11-15",
+  "version": "2.2.2",
+  "updated": "2026-11-17",
   "description": "427 voci neurale gratuite în 141 de limbi pentru audiobook. Catalog edge-tts + unelte profesionale.",
   "egress": [
     {
@@ -23,8 +23,8 @@
   "storageKeys": [
     "va_endpoint"
   ],
-  "sizeBytes": 1173645,
-  "sha256": "d0f74e7c1a5319f56485f55483e7ddbd82508d2b9bb5dc7ae8bb85c3f16862f7",
+  "sizeBytes": 1241252,
+  "sha256": "190dc2902e6616bf8da8e7a752aacc52d0f0803594a4285416a0f709ad2a03ee",
   "csp": {
     "present": true,
     "directives": {
@@ -37,7 +37,7 @@
       "base-uri": "'self'",
       "form-action": "'self'",
       "worker-src": "'self' blob:",
-      "script-src": "'self' blob: sha256×5",
+      "script-src": "'self' blob: sha256×7",
       "connect-src": "'self' https://alexio.tf",
       "manifest-src": "'self'"
     },
@@ -79,7 +79,7 @@
     ]
   },
   "kit": {
-    "version": "1.7.0",
+    "version": "1.8.0",
     "modules": [
       "core",
       "store",
